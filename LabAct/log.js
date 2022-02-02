@@ -1,1 +1,0 @@
-var link = 'http://'
