@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="public/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div>
+        <form action="http://127.0.0.1:5000/process_post" method="POST">
+            <div class="form-group">
+                <label>Name:</label>
+                <input type="text" name="first_name">
+                <label>Last Name:</label>
+                <input type="text" name="last_name">
+                <label>Course:</label>
+                <input type="text" name="course">
+                <label>Age:</label>
+                <input type="text" name="age">
+                <label>Comments/Suggestions:</label>
+                <textarea name="comment"></textarea>
+            </div>
+            <button type="submit" class="button">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
