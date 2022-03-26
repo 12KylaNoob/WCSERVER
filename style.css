@@ -1,0 +1,38 @@
+* {
+	margin: 5px; 
+	padding: 5px; 
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-content: center;
+    display: inline-block;
+    margin: auto;
+}
+
+.space {
+    padding: 5px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.content {
+    margin: auto;
+    padding: 5px;
+}
+
+h2, h3, p{
+    text-align: center;
+}
+
+button {
+  width: 45%;
+  padding: 5px;
+}
+
+input, span {
+    width: 100%;
+    padding: 5px;
+}
